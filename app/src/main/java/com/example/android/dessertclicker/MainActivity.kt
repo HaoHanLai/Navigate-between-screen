@@ -176,7 +176,6 @@ class MainActivity : AppCompatActivity() {
                 .setText(getString(R.string.share_text, dessertsSold, revenue))
                 .setType("text/plain")
                 .intent
-
         try {
             startActivity(shareIntent)
         } catch (ex: ActivityNotFoundException) {
